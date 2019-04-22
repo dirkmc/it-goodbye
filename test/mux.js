@@ -28,7 +28,7 @@ tape('duplex', function (t) {
           t.deepEqual(values, [1, 2, 3, 4, 5])
           t.end()
         }
-      }))
+      }, 6))
     }
   })
 
